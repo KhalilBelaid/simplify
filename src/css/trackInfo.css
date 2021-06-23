@@ -1,0 +1,9 @@
+.wrapper {
+    border: 1px solid black;
+    display : flex;
+    flex-direction: row; /*default*/
+    flex-wrap: nowrap; /*default*/
+    justify-content: center;
+    align-items: stretch; /*default*/
+    background-color: rgb(232, 230, 227);
+}

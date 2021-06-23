@@ -1,0 +1,72 @@
+.wrapper{
+	border: 1px solid black;
+	padding : 20px 30px 60px 30px;
+	display: flex;
+	justify-content: center;
+	margin :auto;   /* Center */
+	background-color: white;
+	font-family: 'Roboto', sans-serif;
+}
+  /* Flip Table Vertical */
+.progress-tab {
+	margin: auto;
+	display: flex;
+	flex-direction: row;
+	align-items :flex-start;
+}
+.progress-tab > tr {
+	display:flex; 
+	flex-direction: column;
+	overflow: hidden;
+	align-items: flex-start
+}
+.progress-tab > tr > th {
+	display:flex; 
+	flex-direction: row;
+	align-items: center; 
+	align-self: flex-start
+}
+.progress-tab > tr > td {
+	text-align: center;
+	margin: auto;
+}
+.icon {			
+	color: rgb(7, 142, 149);
+	font-family: 'Material Icons';
+	font-size: 300%;
+	}
+.blank {
+	color : transparent;
+}
+.outlined {			
+    font-family: 'Material Icons Outlined';
+}
+
+.progress {
+	font-size: 48px;
+}
+.error {
+	color: orange;
+}
+.cropper {
+    /* overflow: hidden; */
+    display: inline-block;
+}
+.cropper > .icon{
+	margin: -3.2px;
+}
+
+.cropper > .line{
+	margin: 0 -8px 0 -8px;
+}
+.cropper > .dots{
+	margin: 0 -6px 0 -5px;
+}
+#datetime {
+	font-size: 70%;
+	font-family: 'Roboto Mono', monospace;
+}
+#highlight {
+	font-size: 110%;
+	font-weight: bold;
+}

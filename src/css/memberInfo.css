@@ -1,0 +1,19 @@
+
+.wrapper {
+	border: 1px solid black;
+    display : flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+    width: 200px;
+    background-color: silver;
+    flex : 0 0 auto;
+    align-items: center;
+    background-color: rgb(232, 230, 227);
+}
+.circle{
+    border-radius: 50%;
+    height: 75px;
+    width: 75px;
+    border:2px solid Red;
+    padding: 3px;
+}

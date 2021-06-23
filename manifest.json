@@ -1,0 +1,21 @@
+{
+    "manifest_version": 2,
+    "name": "Simplify",
+    "version": "0.0.1",
+    "description": "Simplify order panel",
+    "author": "Khalil Belaid",
+    "content_scripts": [
+      {
+        "matches": ["*://admin.vinted.ca/en/beheer/59e3092dab9a6eb6395cf0a521be2bf0/orders/view/*"],
+        "js": ["src/js/dependencies/webcomponents-sd-ce.js","src/js/content_script.js"]
+      }
+    ],
+    "permissions": [
+      "<all_urls>"
+    ],
+    "web_accessible_resources": [
+      "src/js/*",
+      "src/css/*"
+    ]
+}
+
